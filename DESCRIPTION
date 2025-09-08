@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Simulation of the MontyHall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Hannah", "Dixon", , "hddixon@asu.edu", role = c("aut", "cre"))
+Description: This package simulates a run through of the MontyHall game, which involves a contestant picking 1 of three doors to win a potential prize. Out of three doors, two of them have a goat behind them and one of them has a car behind it. The contestant first selects an initial door, and the host opens a door with a goat behind it. The contestant is given the option to stay with their initial pick, or to choose the third unopened door. If the final door picked by the contestant has a car behind it, they have won the game.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+   dplyr
+
